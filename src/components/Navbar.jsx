@@ -20,9 +20,7 @@ const Navbar = () => {
         if (top >= offset && top < offset + height) {
           navLinks.forEach((link) => {
             link.classList.remove("active");
-            document
-              .querySelector("header nav a[href*=" + id + "]")
-              .classList.add("active");
+            document.querySelector("header nav a[href*=" + id + "]").classList.add("active");
           });
         }
       });
@@ -32,7 +30,7 @@ const Navbar = () => {
   return (
     <header className="header">
       <a href="#" className="logo" id="logo">
-        &lt; Usama /&gt;
+        &lt; Muhammad Ali /&gt;
       </a>
 
       <i

@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
-import BehinDev from "../assets/behinDev_certificate.png";
-import TechAlpha from "../assets/techAlpha_certificate.png";
-import Interneepk from "../assets/interneepk.jpeg";
-import Skylarks from "../assets/skylarks.jpg";
+// import BehinDev from "../assets/behinDev_certificate.png";
+// import TechAlpha from "../assets/techAlpha_certificate.png";
+// import Interneepk from "../assets/interneepk.jpeg";
+// import Skylarks from "../assets/skylarks.jpg";
 
 const Certification = () => {
   useEffect(() => {
@@ -13,9 +13,7 @@ const Certification = () => {
         const wrapper = image.parentElement;
 
         image.addEventListener("mouseenter", () => {
-          image.style.transform = `translateY(-${
-            image.scrollHeight - wrapper.clientHeight
-          }px)`;
+          image.style.transform = `translateY(-${image.scrollHeight - wrapper.clientHeight}px)`;
         });
 
         image.addEventListener("mouseleave", () => {
@@ -34,7 +32,7 @@ const Certification = () => {
       <div className="image-container">
         <div className="outer-wrapper fadeOut">
           <div className="image-wrapper">
-            <img className="scrollingImage" src={Skylarks} alt="" />
+            <img className="scrollingImage" src={{}} alt="" />
           </div>
           <a href="#" target="_blank">
             Skylarks IT Solutions
@@ -43,7 +41,7 @@ const Certification = () => {
 
         <div className="outer-wrapper fadeOut">
           <div className="image-wrapper">
-            <img className="scrollingImage" src={Interneepk} alt="" />
+            <img className="scrollingImage" src={{}} alt="" />
           </div>
           <a href="#" target="_blank">
             Internee.Pk
@@ -52,7 +50,7 @@ const Certification = () => {
 
         <div className="outer-wrapper fadeOut">
           <div className="image-wrapper">
-            <img className="scrollingImage" src={BehinDev} alt="" />
+            <img className="scrollingImage" src={{}} alt="" />
           </div>
           <a href="#" target="_blank">
             BehinDev
@@ -61,7 +59,7 @@ const Certification = () => {
 
         <div className="outer-wrapper fadeOut">
           <div className="image-wrapper">
-            <img className="scrollingImage" src={TechAlpha} alt="" />
+            <img className="scrollingImage" src={{}} alt="" />
           </div>
           <a href="#" target="_blank">
             Tech Alpha

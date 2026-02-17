@@ -60,64 +60,33 @@ const Contact = () => {
           <div className="contact-left">
             <h1 className="sub-title">Contact Me</h1>
             <p>
-              <i className="fa-solid fa-paper-plane"></i>{" "}
-              usamamansoor79@gmail.com
+              <i className="fa-solid fa-paper-plane"></i> alihere786@gmail.com
             </p>
             <p>
               <i className="fa-solid fa-phone"></i> +923345103146
             </p>
             <div className="social-icons">
-              <a
-                href="https://www.linkedin.com/in/usama-mansoor-22ba92220"
-                target="_blank"
-              >
+              <a href="https://www.linkedin.com/in/usama-mansoor-22ba92220" target="_blank">
                 <i className="fa-brands fa-linkedin-in"></i>
               </a>
               <a href="https://github.com/UsamaMansoor026" target="_blank">
                 <i className="fa-brands fa-github"></i>
               </a>
-              <a
-                href="https://www.facebook.com/usama.mansoor.5851?mibextid=ZbWKwL"
-                target="_blank"
-              >
+              <a href="https://www.facebook.com/usama.mansoor.5851?mibextid=ZbWKwL" target="_blank">
                 <i className="fa-brands fa-facebook-f"></i>
               </a>
             </div>
             <button className="btn-cv">
-              <a
-                href="https://drive.google.com/file/d/1krokDXV1_a5BuLODQM0RuNTtzdb6eSPx/view?usp=drive_link"
-                target="_blank"
-              >
+              <a href="https://drive.google.com/file/d/1krokDXV1_a5BuLODQM0RuNTtzdb6eSPx/view?usp=drive_link" target="_blank">
                 Download CV
               </a>
             </button>
           </div>
           <div className="contact-right">
             <form onSubmit={handleSubmit}>
-              <input
-                type="text"
-                name="name"
-                id="name"
-                onChange={handleChange}
-                value={formData.name}
-                placeholder="Your Name..."
-              />
-              <input
-                type="email"
-                name="email"
-                id="email"
-                onChange={handleChange}
-                value={formData.email}
-                placeholder="Your Email..."
-              />
-              <textarea
-                name="message"
-                id="message"
-                rows="4"
-                onChange={handleChange}
-                value={formData.message}
-                placeholder="Your Message..."
-              ></textarea>
+              <input type="text" name="name" id="name" onChange={handleChange} value={formData.name} placeholder="Your Name..." />
+              <input type="email" name="email" id="email" onChange={handleChange} value={formData.email} placeholder="Your Email..." />
+              <textarea name="message" id="message" rows="4" onChange={handleChange} value={formData.message} placeholder="Your Message..."></textarea>
               <button className="button" type="submit">
                 <p>Submit</p>
               </button>

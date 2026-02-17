@@ -18,7 +18,7 @@
   --bg-color: #000;
   --sec-bg-color: #121212;
   --text-color: #fff;
-  --main-color: linear-gradient(to right, #4169e1, #50c878);
+  --main-color: linear-gradient(to right, #9bf8f4, #6f7bf7);
   /* --main-color: #6699cc; */
 }
 
@@ -115,10 +115,10 @@ html::-webkit-scrollbar-thumb {
 /* Home Section Styling */
 /* --------------------- */
 .home {
-  /* display: flex;
+  display: flex;
   justify-content: center;
   align-items: center;
-  gap: 8rem; */
+  gap: 4rem;
   background: var(--bg-color);
   margin-top: 70px;
   max-width: 80%;
@@ -126,23 +126,26 @@ html::-webkit-scrollbar-thumb {
   margin-inline: auto;
 }
 
-/* .home-img img {
+.home-img img {
   position: relative;
-  width: 100vw;
+  width: 50vw;
   aspect-ratio: 1;
   object-fit: cover;
-  filter: grayscale(30%);
   border-radius: 50%;
-  box-shadow: 0 0 10px #4169e1, 0 0 15px var(--main-color),
+  box-shadow:
+    0 0 10px #4169e1,
+    0 0 15px var(--main-color),
     0 0 50px var(--main-color);
   cursor: pointer;
 }
 
 .home-img img:hover {
-  box-shadow: 0 0 15px var(--main-color), 0 0 25px var(--main-color),
+  box-shadow:
+    0 0 15px var(--main-color),
+    0 0 25px var(--main-color),
     0 0 70px var(--main-color);
   scale: 1.01;
-} */
+}
 
 /* Home Content */
 
@@ -236,7 +239,9 @@ span {
   font-weight: 600;
   cursor: pointer;
   overflow: hidden;
-  transition: border 300ms, color 300ms;
+  transition:
+    border 300ms,
+    color 300ms;
   user-select: none;
 }
 
