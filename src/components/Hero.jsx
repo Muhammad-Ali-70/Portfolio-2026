@@ -6,30 +6,27 @@ const Hero = () => {
     <section className="home" id="home">
       <div className="home-content fadeeout">
         <h1>
-          Hy I am <span>Muhammad Ali</span>
+          Hi! I am <span>Muhammad Ali</span>
         </h1>
         <h3 className="typing-text">
           And I'm a <span>React Native Developer</span>
         </h3>
         <p style={{ textAlign: "justify" }}>
-          I'm a Passionate <b>Frontend Web Developer</b> with a strong interest in programming and solving real-world challenges through technology. My journey began with mastering{" "}
-          <b>modern frontend technologies</b> to create user-friendly and impactful web experiences.
+          I'm a passionate <b>React Native Mobile Developer</b> with a strong interest in building scalable and high-performance mobile applications. My journey began with mastering{" "}
+          <b>React Native fundamentals, mobile UI design, and cross-platform development</b> to create seamless experiences for both Android and iOS users.
           <br />
           <br />
-          With hands-on experience in <b>Frontend Technologies</b>, I continuously explore new tools and frameworks to refine my skills. I’m dedicated to crafting intuitive and visually appealing user
-          interfaces that enhance the web experience.
+          With hands-on experience in <b>React Native CLI and Expo workflows</b>, I continuously explore new libraries and best practices to refine my skills. I’m dedicated to crafting intuitive,
+          responsive, and user-focused mobile applications that deliver real value.
         </p>
 
         <div className="wrapper_icons_buttns">
           <div className="social-icons">
-            <a href="https://www.linkedin.com/in/usama-mansoor-22ba92220" target="_blank">
+            <a href="https://www.linkedin.com/in/m-ali-khattak/" target="_blank">
               <i className="fa-brands fa-linkedin-in"></i>
             </a>
-            <a href="https://github.com/UsamaMansoor026" target="_blank">
+            <a href="https://github.com/Muhammad-Ali-70" target="_blank">
               <i className="fa-brands fa-github"></i>
-            </a>
-            <a href="https://www.facebook.com/usama.mansoor.5851?mibextid=ZbWKwL" target="_blank">
-              <i className="fa-brands fa-facebook-f"></i>
             </a>
           </div>
 

@@ -556,11 +556,13 @@ span {
 /* ----- */
 .skills {
   background: var(--bg-color);
+  padding-bottom: 8rem;
+  min-height: unset;
 }
 
 .skills .container {
-  /* background: #f55d1b86; */
-  /* background: #0096c786; */
+  background: #f55d1b86;
+  background: #0096c786;
   color: var(--text-color);
   border-radius: 1rem;
   padding: 2rem;
@@ -586,7 +588,7 @@ span {
 }
 
 .skills .container .bar:hover {
-  box-shadow: 0 2px 10px #4169e1;
+  box-shadow: 0 2px 10px #ffffff;
   transform: scale(1.03);
 }
 

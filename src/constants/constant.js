@@ -10,6 +10,14 @@ import git from "../assets/icons/git.svg";
 import github from "../assets/icons/github.svg";
 import redux from "../assets/icons/redux.svg";
 
+// New React Native / Mobile-specific icons
+import stripe from "../assets/icons/stripe.svg";
+import paypal from "../assets/icons/paypal.svg";
+import google from "../assets/icons/google.svg";
+import maps from "../assets/icons/geolocation.svg";
+import expo from "../assets/icons/expo2.svg";
+import supabase from "../assets/icons/supabase.svg";
+
 export const skillIcons = {
   html: html,
   css: css,
@@ -22,4 +30,10 @@ export const skillIcons = {
   github: github,
   git: git,
   redux: redux,
+  stripe: stripe,
+  paypal: paypal,
+  google: google,
+  maps: maps,
+  expo: expo,
+  supabase: supabase,
 };

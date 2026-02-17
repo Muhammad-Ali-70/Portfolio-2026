@@ -9,14 +9,10 @@ const Services = () => {
         <div className="single-service littleToBig">
           <div className="content">
             <span className="icon">
-              <i className="fab fa-laptop-code"></i>
+              <i className="fas fa-mobile-screen-button"></i>
             </span>
-            <h3 className="title">Responsive Website</h3>
-            <p className="description">
-              Crafting digital experiences that seamlessly adapt to every screen
-              size and device, my service specializes in creating responsive
-              websites.
-            </p>
+            <h3 className="title">Cross-Platform Apps</h3>
+            <p className="description">Developing mobile applications that run smoothly on both Android and iOS platforms with responsive and consistent user experiences.</p>
           </div>
           <span className="circle-before"></span>
         </div>
@@ -24,14 +20,10 @@ const Services = () => {
         <div className="single-service littleToBig">
           <div className="content">
             <span className="icon">
-              <i className="fab fa-battle-net"></i>
+              <i className="fab fa-react"></i>
             </span>
-            <h3 className="title">Pixel Perfect Website</h3>
-            <p className="description">
-              Attention to detail is my motto. With my Pixel Perfect Website
-              service, I meticulously develop websites to achieve flawless
-              precision.
-            </p>
+            <h3 className="title">Figma to React Native</h3>
+            <p className="description">Crafting scalable and maintainable mobile applications using React Native, with responsive and pixel-perfect UI implementation directly from Figma designs.</p>
           </div>
           <span className="circle-before"></span>
         </div>
@@ -39,14 +31,10 @@ const Services = () => {
         <div className="single-service littleToBig">
           <div className="content">
             <span className="icon">
-              <i className="fab fa-battle-net"></i>
+              <i className="fas fa-map-marker-alt"></i>
             </span>
-            <h3 className="title">Figma to Code</h3>
-            <p className="description">
-              Transforming Figma designs into functional code is my specialty.
-              With my Figma to Code service, I translate your vision into
-              pixel-perfect websites.
-            </p>
+            <h3 className="title">Live Tracking & Maps</h3>
+            <p className="description">Implementing real-time location tracking, route mapping, and navigation features for mobile applications.</p>
           </div>
           <span className="circle-before"></span>
         </div>
@@ -54,13 +42,10 @@ const Services = () => {
         <div className="single-service littleToBig">
           <div className="content">
             <span className="icon">
-              <i className="fab fa-battle-net"></i>
+              <i className="fas fa-file-invoice-dollar"></i>
             </span>
-            <h3 className="title">PSD to Code</h3>
-            <p className="description">
-              I meticulously transform your Photoshop creations into functional,
-              responsive code. Seamlessly bridging design and development.
-            </p>
+            <h3 className="title">Payment Integration</h3>
+            <p className="description">Integrating secure payment gateways like Stripe Connect for smooth in-app transactions and wallet management.</p>
           </div>
           <span className="circle-before"></span>
         </div>
@@ -68,14 +53,10 @@ const Services = () => {
         <div className="single-service littleToBig">
           <div className="content">
             <span className="icon">
-              <i className="fab fa-battle-net"></i>
+              <i className="fas fa-images"></i>
             </span>
-            <h3 className="title">Smooth Animations</h3>
-            <p className="description">
-              From subtle transitions to captivating effects, I specialize in
-              crafting fluid and visually stunning animations for your website
-              or application.
-            </p>
+            <h3 className="title">Media Handling</h3>
+            <p className="description">Implementing image and video upload, processing, and cloud storage integration for dynamic mobile content.</p>
           </div>
           <span className="circle-before"></span>
         </div>
