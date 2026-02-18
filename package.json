@@ -1,16 +1,16 @@
 {
-  "homepage": "https://Muhammad-Ali-70.github.io/Portfolio-2026",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build",
   "name": "portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://Muhammad-Ali-70.github.io/Portfolio-2026",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@lottiefiles/react-lottie-player": "^3.6.0",
