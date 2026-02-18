@@ -52,14 +52,14 @@ const Navbar = () => {
         <a href="#skills" onClick={hideNav}>
           Skills
         </a>
-        <a href="#projects" onClick={hideNav}>
+        {/* <a href="#projects" onClick={hideNav}>
           Projects
-        </a>
-        <a href="#certificates" onClick={hideNav}>
+        </a> */}
+        {/* <a href="#certificates" onClick={hideNav}>
           Certificates
-        </a>
+        </a> */}
         <a href="#education" onClick={hideNav}>
-          Eduction
+          Education
         </a>
         <a href="#contact" onClick={hideNav}>
           Contact

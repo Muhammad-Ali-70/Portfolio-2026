@@ -28,7 +28,7 @@ const Contact = () => {
       return;
     }
 
-    formData.append("access_key", "97160e76-1107-40b6-867b-7b4b003dfd09");
+    formData.append("access_key", "15fe158c-28f9-4af0-88b4-f354db1ab9ad");
     const object = Object.fromEntries(formData);
     const json = JSON.stringify(object);
     const res = await fetch("https://api.web3forms.com/submit", {
@@ -63,17 +63,14 @@ const Contact = () => {
               <i className="fa-solid fa-paper-plane"></i> alihere786@gmail.com
             </p>
             <p>
-              <i className="fa-solid fa-phone"></i> +923345103146
+              <i className="fa-solid fa-phone"></i> +923424101178
             </p>
             <div className="social-icons">
-              <a href="https://www.linkedin.com/in/usama-mansoor-22ba92220" target="_blank">
+              <a href="https://www.linkedin.com/in/m-ali-khattak/" target="_blank">
                 <i className="fa-brands fa-linkedin-in"></i>
               </a>
-              <a href="https://github.com/UsamaMansoor026" target="_blank">
+              <a href="https://github.com/Muhammad-Ali-70" target="_blank">
                 <i className="fa-brands fa-github"></i>
-              </a>
-              <a href="https://www.facebook.com/usama.mansoor.5851?mibextid=ZbWKwL" target="_blank">
-                <i className="fa-brands fa-facebook-f"></i>
               </a>
             </div>
             <button className="btn-cv">

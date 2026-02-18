@@ -10,9 +10,7 @@ const Projects = () => {
         const wrapper = image.parentElement;
 
         image.addEventListener("mouseenter", () => {
-          image.style.transform = `translateY(-${
-            image.scrollHeight - wrapper.clientHeight
-          }px)`;
+          image.style.transform = `translateY(-${image.scrollHeight - wrapper.clientHeight}px)`;
         });
 
         image.addEventListener("mouseleave", () => {
@@ -70,10 +68,7 @@ const Projects = () => {
 
         <div className="outer-wrapper">
           <div className="code_btn">
-            <a
-              href="https://github.com/UsamaMansoor026/Interneepk_Tasks/tree/main/TSK_000_44"
-              target="_blank"
-            >
+            <a href="https://github.com/UsamaMansoor026/Interneepk_Tasks/tree/main/TSK_000_44" target="_blank">
               <FaCode />
             </a>
           </div>
@@ -92,10 +87,7 @@ const Projects = () => {
 
         <div className="outer-wrapper">
           <div className="code_btn">
-            <a
-              href="https://github.com/UsamaMansoor026/OnlineGamingPortal-MAAN"
-              target="_blank"
-            >
+            <a href="https://github.com/UsamaMansoor026/OnlineGamingPortal-MAAN" target="_blank">
               <FaCode />
             </a>
           </div>
@@ -107,20 +99,14 @@ const Projects = () => {
             />
           </div>
 
-          <a
-            href="https://usamamansoor026.github.io/OnlineGamingPortal-MAAN/"
-            target="_blank"
-          >
+          <a href="https://usamamansoor026.github.io/OnlineGamingPortal-MAAN/" target="_blank">
             Online Gaming Portal
           </a>
         </div>
 
         <div className="outer-wrapper">
           <div className="code_btn">
-            <a
-              href="https://github.com/UsamaMansoor026/Cake_Shop"
-              target="_blank"
-            >
+            <a href="https://github.com/UsamaMansoor026/Cake_Shop" target="_blank">
               <FaCode />
             </a>
           </div>
@@ -139,10 +125,7 @@ const Projects = () => {
 
         <div className="outer-wrapper">
           <div className="code_btn">
-            <a
-              href="https://github.com/UsamaMansoor026/notesApp"
-              target="_blank"
-            >
+            <a href="https://github.com/UsamaMansoor026/notesApp" target="_blank">
               <FaCode />
             </a>
           </div>
@@ -169,7 +152,7 @@ const Projects = () => {
         }}
       >
         <button id="navigateButton" className="button">
-          <a href="https://github.com/UsamaMansoor026" target="_blank">
+          <a href="https://github.com/Muhammad-Ali-70" target="_blank">
             See More
           </a>
         </button>

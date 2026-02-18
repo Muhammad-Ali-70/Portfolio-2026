@@ -120,15 +120,15 @@ html::-webkit-scrollbar-thumb {
   align-items: center;
   gap: 4rem;
   background: var(--bg-color);
-  margin-top: 70px;
-  max-width: 80%;
+  margin-top: 50px;
+  max-width: 85%;
   width: 100%;
   margin-inline: auto;
 }
 
 .home-img img {
   position: relative;
-  width: 50vw;
+  width: 65vw;
   aspect-ratio: 1;
   object-fit: cover;
   border-radius: 50%;
@@ -780,7 +780,7 @@ span {
 /* Education Section Styling */
 /* ------------------------ */
 .education {
-  background: var(--sec-bg-color);
+  background: var(--bg-color);
 }
 
 .education .timeline {
