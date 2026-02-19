@@ -74,7 +74,7 @@ const Contact = () => {
               </a>
             </div>
             <button className="btn-cv">
-              <a href="https://drive.google.com/file/d/1pxBKLI-LM9rEHBlOeB3fA6mkTSyLNXBS/view?usp=sharing" target="_blank">
+              <a href="https://drive.google.com/file/d/1tkbrM33n4lAxLN-E5-qCT8mPCrJAxNVe/view?usp=sharing" target="_blank">
                 Download CV
               </a>
             </button>
